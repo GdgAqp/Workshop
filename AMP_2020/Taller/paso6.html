@@ -1,0 +1,193 @@
+<!doctype html>
+<html ⚡>
+<head>
+  <meta charset="utf-8">
+  <title>My AMP Page</title>
+  <link rel="canonical" href="self.html" />
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+            <link href="https://fonts.googleapis.com/css?family=Lacquer" rel="stylesheet" type="text/css"/>
+            <link href="https://fonts.googleapis.com/css?family=Comic+Neue" rel="stylesheet" type="text/css"/>
+            <link href="https://fonts.googleapis.com/css?family=Mansalva" rel="stylesheet" type="text/css"/>
+            <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet" type="text/css"/>
+            <link href="https://fonts.googleapis.com/css?family=MuseoModerno" rel="stylesheet" type="text/css"/>
+            <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet" type="text/css"/>
+  <style amp-custom>
+:root {
+
+      
+    --space-1: 0.5rem;
+    --space-2: 1rem;   /* 16px */
+    --space-4: 2rem;
+    }  
+    body{
+      background-color: black;
+
+    } 
+    header{
+      background-color: lightgray;
+        
+        
+    }  
+    h1{
+
+      font-family: "Bangers", sans-serif;
+      padding-top:var(--space-2);
+      text-align: center;
+      padding-bottom:var(--space-2);
+    }
+    h2{
+      margin:5px;
+    font-family: "Comic Neue",sans-serif;
+      text-transform: uppercase;
+      color: white;
+      text-align:center;
+    }
+    h3{
+      
+      font-family: "Orbitron",sans-serif;
+      text-transform: uppercase;
+      color: white;
+      text-align:center;
+      font-size:30px;
+    }
+
+    .hamburger {
+      top: 0;
+      right: 0;
+      position: absolute;
+    }   
+    .desktop-sidebar {
+      
+      background-color: lightblue;
+      padding: var(--space-2);
+      
+    }
+    .sample-sidebar li,nav[toolbar] li {
+      margin: var(--space-4);
+      margin-left: var(--space-2);
+      list-style: none;
+      font-family:"Lacquer", sans-serif;
+      
+    }
+    
+    hr{
+        background-color: greenyellow;
+        border: solid 5px yellowgreen;
+        height: 4px;
+    }
+    strong{
+      color: whitesmoke;
+      font-size: 18px;
+      font-family:"Mansalva", sans-serif;
+      text-align:center;
+      text-transform: uppercase;
+        
+    }
+    p{
+      padding:10px;
+      color: whitesmoke;
+      font-size: 16px;
+      font-family:"MuseoModerno", sans-serif;
+      text-align:justify;
+    }
+  </style>
+</head>
+    <body>
+        <header>
+            <h1>
+                Fornite vs Apple & Google
+            </h1>
+            <button aria-label="Click to open sidebar" class="hamburger" on="tap:sidebar-desktop.toggle">
+                =
+            </button>
+        </header>
+        <div>
+            <amp-sidebar class="desktop-sidebar" id="sidebar-desktop" layout="nodisplay" side="left">
+                <h1>
+                    Desktop Sidebar
+                </h1>
+                <button on="tap:sidebar-desktop.close">
+                    Close sidebar
+                </button>
+                <nav toolbar="(min-width: 784px)" toolbar-target="target-element-desktop">
+                    <ul>
+                        <li>
+                            Nav item A
+                        </li>
+                        <li>
+                            Nav item B
+                        </li>
+                        <li>
+                            Nav item C
+                        </li>
+                        <li>
+                            Nav item D
+                        </li>
+                    </ul>
+                </nav>
+            </amp-sidebar>
+        </div>
+        <article>
+            <h2>
+                <hr>
+                    Fortnite: por qué Apple y Google decidieron sacar al popular videojuego de sus tiendas de aplicaciones
+                    <hr/>
+                </hr>
+            </h2>
+        </article>
+        <amp-carousel autoplay="" delay="2000" height="300" id="carousel-imagenes" layout="responsive" type="slides" width="400">
+            <amp-img alt="imagen1" height="300" layout="responsive" src="https://drive.google.com/uc?export=view&id=1oe0vsuL4c5EXD1usiX7f8YXX-Pc7hdi3" width="400">
+            </amp-img>
+            <amp-img alt="imagen2" height="300" layout="responsive" src="https://drive.google.com/uc?export=view&id=1dXj5bCpgXCsusuIe9yoAwhvkTPEusDSD" width="400">
+            </amp-img>
+            <amp-img alt="imagen3" height="300" layout="responsive" src="https://drive.google.com/uc?export=view&id=1ZeHf_Eh4kzgl6ky81NJf5tTAde3PgHgH" width="400">
+            </amp-img>
+            <amp-img alt="imagen4" height="300" layout="responsive" src="https://drive.google.com/uc?export=view&id=1QjWAn3qM-LjLizj3eH2ERYwijcq2-kO5" width="400">
+            </amp-img>
+            <amp-img alt="imagen5" height="300" layout="responsive" src="https://drive.google.com/uc?export=view&id=1zJdN_YyIW1noTK1nNNJNl0JtJZ7U2u9E" width="400">
+            </amp-img>
+            <amp-img alt="imagen6" height="300" layout="responsive" src="https://drive.google.com/uc?export=view&id=1Sq0Su-pAdPpzbxOvBwCAaOdj-BB5D7nM" width="400">
+            </amp-img>
+        </amp-carousel>
+            <hr>
+                <amp-youtube data-videoid="6kX-mm2sOMQ" height="300" layout="responsive" width="480">
+                </amp-youtube>
+                <p>
+                    Por eso, extrañó a muchos que esta semana fuera retirado de las dos plataformas de aplicaciones más importantes en el mundo, Apple Store y Google Play.
+                </p>
+                <p>
+                    Las empresas señalaron que Fortnite incumplió varios de los términos legales que rigen sus tiendas virtuales.
+                </p>
+                <amp-facebook data-embed-as="video" data-href="https://www.facebook.com/masgamers/videos/345076503553809" height="300" layout="responsive" width="480">
+                </amp-facebook>
+                <p>
+                    <strong>
+                        El impactante final de la temporada 10 del videojuego Fortnite que mantiene desconcertados a sus fans
+                    </strong>
+                </p>
+                <p>
+                    Con este cobro directo, el desarrollador se evitaba la comisión del 30% que,
+                    <b>
+                        <i>
+                            por ejctura por cada transacción dentro de los juegos que estén en su plataforma.
+                        </i>
+                    </b>
+                </p>
+            </hr>
+        </hr>
+        <p>
+            Reflejando asi en el costo de compra de moneda para el juego, beneficiando al consumidor.
+        </p>
+        <h3>
+            <i>
+                ¿Usted qué opina?.
+            </i>
+        </h3>
+        <hr>
+            <amp-facebook-comments data-embed-as="post" data-href="https://www.facebook.com/masgamers/videos/345076503553809/" height="300" layout="responsive" width="486">
+            </amp-facebook-comments>
+        </hr>
+	</body>
+</html>
